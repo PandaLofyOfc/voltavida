@@ -71,13 +71,26 @@
     <p style="font-size: 14px;" class="nprinsley-text-glitchan"><a class="hubungi_prinsh" href="mailto:-[= Sinceras Desculpas Ao Administrador =]-">-[= Sinceras Desculpas Ao Administrador =]-</a></p>
     <p class="othermes_nprinsh nprinsley-text-glitchan">Pesquise LofyGang e entre em Páginas De Notícias! :) Beijos</p>
     <!-- Substitua o link abaixo pelo link do arquivo de áudio que você carregou -->
-    <audio controls>
+    <audio id="myAudio">
       <source src="oiadm.mp3" type="audio/mpeg">
       Seu navegador não suporta o elemento de áudio.
     </audio>
+    <button onclick="playAudio()">Play</button>
+    <button onclick="pauseAudio()">Pause</button>
     <marquee class="foonathanPrinsley"><b style="color: #dbd9d9;font-size: 16px;" class="nathan-prinsley_none">quero gozar</b></marquee>
   </center>
   <script src="https://cdn.prinsh.com/NathanPrinsley-effect/daun-berguguran.js" type="text/javascript"></script>
+  <script>
+    var audio = document.getElementById("myAudio");
+
+    function playAudio() {
+      audio.play();
+    }
+
+    function pauseAudio() {
+      audio.pause();
+    }
+  </script>
 </body>
 </html>
 <!-- Generator by Nathan Prinsley - https://script-deface-generator.prinsh.com -->
